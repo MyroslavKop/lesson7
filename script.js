@@ -1,4 +1,5 @@
 "use strick";
+
 // Задача №1----------------------------------------------------------------------/
 
 // function sumTo(n) {
@@ -11,15 +12,9 @@
 
 // Задача №2----------------------------------------------------------------------/
 
-function findShort(str) {
-  // let sortStr = str.split(" ").sort((a, b) => a.length - b.length);
-  // return sortStr[0];
-  let sortStr = str.split(" ").sort((a, b) => a.length - b.length);
-  return sortStr[0];
-}
+// function findShort(str) {
+//   let sortStr = str.split(" ").sort((a, b) => a.length - b.length);
+//   return sortStr[0];
+// }
 
-console.log(
-  findShort(
-    "Плакаты Розыск информируют жителей города Эмпайр-Бэй о преступниках"
-  )
-);
+// console.log(findShort("She is David's sister"));
